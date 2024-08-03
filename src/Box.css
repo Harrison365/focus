@@ -1,0 +1,66 @@
+.pop-up {
+  background-color: rgb(32, 32, 32, 0.75);
+  color: white;
+  /* make it a box in the middle of the page */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 50%;
+
+  /* centralizer content, things should be above eachother not side by side */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1%;
+  font-family: "San Francisco", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+select {
+  font-family: "San Francisco", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  margin: 2px;
+}
+
+button {
+  font-family: "San Francisco", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 100px;
+  margin: 2px;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: row; /* Change to column orientation */
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+  button {
+    font-size: 15px;
+    width: 75px;
+  }
+  .pop-up {
+    height: 50%;
+    width: 75%;
+  }
+  .selectors {
+    flex-direction: column;
+    height: 20%;
+  }
+}
