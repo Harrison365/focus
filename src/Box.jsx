@@ -50,6 +50,11 @@ export default function Box() {
     }
   };
 
+  const initializeAudio = () => {
+    audioRef.current = new Audio(noise);
+    audioRefEnd.current = new Audio(noiseEnd);
+  };
+
   return (
     <div className="pop-up">
       <h1>Timer</h1>
@@ -85,7 +90,12 @@ export default function Box() {
       </div>
       <div className="buttons">
         {viewStartStop ? (
-          <button onClick={() => timeKeeper()}>
+          <button
+            onClick={() => {
+              initializeAudio();
+              timeKeeper();
+            }}
+          >
             {startStop === "paused" ? "Start" : "Pause"}
           </button>
         ) : null}
