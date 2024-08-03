@@ -1,8 +1,19 @@
-# React + Vite
+# Regain Focus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web app which allows you to start a timer for meditation. However, it can be difficult to stop our minds from wondering so now you can play a gong noise at an interval of your choosing to help you refocus.
 
-Currently, two official plugins are available:
+Enjoy!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to use
+
+Go to this hosted address: https://regainfocus.netlify.app/
+
+Or to run locally:
+
+1. Clone this repository
+
+2. Run `npm install` in the root directory
+
+3. Run `npm run dev`
+
+4. Click on the link in the terminal to open the app in your browser
