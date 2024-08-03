@@ -56,11 +56,17 @@ button {
     width: 75px;
   }
   .pop-up {
-    height: 50%;
+    height: 80%;
     width: 75%;
   }
   .selectors {
     flex-direction: column;
     height: 30%;
+  }
+}
+@media (max-width: 400px) {
+  .pop-up {
+    height: 55%;
+    width: 75%;
   }
 }
