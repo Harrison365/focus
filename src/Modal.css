@@ -1,0 +1,38 @@
+.modal-overlay {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 75%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-text {
+  /* font-size: 1.5rem;
+  margin: 1rem; */
+  width: 80%;
+  font-family: "San Francisco", Arial, sans-serif;
+  font-weight: 300;
+  padding-bottom: 2.5%;
+}
+
+button:hover {
+  background-color: #4d4d4d;
+}
+button:active {
+  background-color: #1d1d1d;
+}
+
+@media (max-width: 768px) {
+  .modal-text {
+    font-size: 15px;
+    padding-bottom: 0%;
+  }
+}

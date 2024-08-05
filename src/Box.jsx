@@ -3,7 +3,7 @@ import noise from "./assets/gong.mp3";
 import noiseEnd from "./assets/splosh.mp3";
 import "./Box.css";
 
-export default function Box() {
+export default function Box({ setShowModal }) {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
   const [totalSeconds, setTotalSeconds] = useState(0);
@@ -57,7 +57,15 @@ export default function Box() {
 
   return (
     <div className="pop-up">
-      <h1>Timer</h1>
+      <div
+        className="info"
+        onClick={() => {
+          setShowModal(true);
+        }}
+      >
+        i
+      </div>
+      <h1 className="title">Focus Timer</h1>
       <h1>
         {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
       </h1>
