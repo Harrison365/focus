@@ -9,8 +9,6 @@
   height: 50%;
   width: 50%;
   border-radius: 15px;
-
-  /* centralizer content, things should be above eachother not side by side */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +49,8 @@ button {
   color: white;
   border: none;
   box-shadow: none;
+  /* centralise button text always */
+  text-align: center;
 }
 
 button:hover {
@@ -62,7 +62,7 @@ button:active {
 
 .selectors {
   display: flex;
-  flex-direction: row; /* Change to column orientation */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 10%;
