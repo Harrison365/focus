@@ -6,7 +6,7 @@ Enjoy!
 
 # How to use
 
-Go to this hosted address: https://regainfocus.netlify.app/
+Go to this hosted address: https://a-focus-timer.netlify.app/
 
 Or to run locally:
 
