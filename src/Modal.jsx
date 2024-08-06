@@ -10,8 +10,8 @@ const Modal = ({ showModal, setShowModal }) => {
       <div className="modal-text">
         <h2>Welcome to Focus Timer.</h2>
         <p>
-          A common trap in meditation, is setting a timer to get in some solid
-          mindfulness, only to be distracted by our thoughts. Before you know
+          A common trap in meditation is setting a timer to get some solid
+          mindfulness in, only to be distracted by our thoughts. Before you know
           it, the timer goes off and you've missed the whole session. This app
           is designed to help you stay focused.
         </p>
